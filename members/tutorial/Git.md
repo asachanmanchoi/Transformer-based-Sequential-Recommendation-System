@@ -31,7 +31,7 @@ $git branch -d Elaine       # delete the local branch named "Elaine"
 $git push origin :Elaine    # delete the remote branch named "Elaine" from the remote repository
 ```
 
-## Pull commits in main branch to your own branch
+## Pull main branch to your own branch
 
 ```bash
 # First, switch to main branch
@@ -50,7 +50,7 @@ $git merge main
 $git push origin Elaine
 ```
 
-## Pull commits in your own branch to main branch
+## Push updates of your own branch to main
 
 ```bash
 # First, switch to your own branch
