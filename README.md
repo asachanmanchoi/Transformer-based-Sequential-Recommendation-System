@@ -1,4 +1,4 @@
-# Transformer-based Recommendation Systems for Sequential Recommendation
+# Exploring Temporal Factors in Transformer-based Recommendation Systems for Sequential Recommendation
 
 This is the research project for COMP 5331, which focuses on Knowledge Discovery in Databases.
 
