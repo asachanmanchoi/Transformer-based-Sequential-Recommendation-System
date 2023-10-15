@@ -18,7 +18,7 @@ The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learni
 
 ## System Architecture
 
-- to do done
+- to be done
 
 ## Prerequisite
 
@@ -26,7 +26,7 @@ The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learni
 
 ## Processing 
 
-- to do done
+- to be done
 
 ## Assistance for members
 
