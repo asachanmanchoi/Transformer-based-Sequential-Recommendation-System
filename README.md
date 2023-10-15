@@ -11,10 +11,10 @@ The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learni
 | Date                       | Weekday | Group Meeting                                | Update                                                              | Note |
 |----------------------------|---------|----------------------------------------------|---------------------------------------------------------------------|------|
 | 2023-09-11 (20:30 - 22:00) | Monday  | 1 (Project Content Discussion Meeting)       | Determine to focus on "Recommendation System"                       |      |
-| 2023-09-16 (20:30 - 22:30) | Saturday| 2 (Read 13 Related Papers Meeting)           | Determine to read only two papers after discussion.                 |      |
+| 2023-09-16 (20:30 - 22:30) | Saturday| 2 (Read 13 Related Papers Meeting)           | Determine to read only two papers after discussion                  |      |
 | 2023-09-24 (14:00 - 16:00) | Sunday  | 3 (Project Proposal Discussion Meeting)      | Discuss the project proposal content                                |      |
-| 2023-09-26 (21:00 - 22:00) | Tuesday | 4 (Project Proposal Review Meeting)          | Review the project proposal.                                        |      |
-| 2023-10-15 (15:30 - 17:30) | Sunday  | 5 (Dataset preprocessing Discussion Meeting) | Determine how to preprocess the dataset and plan in the next week.  | [click](./meeting/fifth/README.md) |
+| 2023-09-26 (21:00 - 22:00) | Tuesday | 4 (Project Proposal Review Meeting)          | Review the project proposal                                         |      |
+| 2023-10-15 (15:30 - 17:30) | Sunday  | 5 (Dataset preprocessing Discussion Meeting) | Determine how to preprocess the dataset and plan in the next week   | [click](./meeting/fifth/README.md) |
 
 ## System Architecture
 
