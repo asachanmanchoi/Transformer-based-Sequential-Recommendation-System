@@ -26,6 +26,8 @@ $git checkout -b Elaine
 
 # Third, push the new branch you just created to github
 $git push origin Elaine
+# Suitable for the initial push of a local branch to a remote repository as it automatically establishes a tracking relationship for future push and pull operations
+$git push --set-upstream origin Elaine
 
 
 # Some help Git commands for you to use about this task
