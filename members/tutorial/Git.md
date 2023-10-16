@@ -3,6 +3,11 @@
 ## Configure
 
 ```bash
+# Check your git configuration first
+$git config user.email
+$git config user.name 
+
+# Then update your git configuration
 $git config --global user.name 'Elaine, Xiaohan ZHONG'
 $git config --global user.name 'zxhelaine@gmail.com'
 ```
