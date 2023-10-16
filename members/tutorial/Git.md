@@ -8,8 +8,8 @@ $git config user.email
 $git config user.name 
 
 # Then update your git configuration
-$git config --global user.name 'Elaine, Xiaohan ZHONG'
-$git config --global user.name 'zxhelaine@gmail.com'
+$git config --global user.name "Elaine, Xiaohan ZHONG"
+$git config --global user.name "zxhelaine@gmail.com"
 ```
 
 ## Create your own branch
