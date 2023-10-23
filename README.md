@@ -15,6 +15,7 @@ The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learni
 | 2023-09-24 (14:00 - 16:00) | Sunday  | 3 (Project Proposal Discussion Meeting)      | Discuss the project proposal content                                |      |
 | 2023-09-26 (21:00 - 22:00) | Tuesday | 4 (Project Proposal Review Meeting)          | Review the project proposal                                         |      |
 | 2023-10-15 (15:30 - 17:30) | Sunday  | 5 (Dataset preprocessing Discussion Meeting) | Determine how to preprocess the dataset and plan in the next week   | [click](./meeting/fifth/README.md) |
+| 2023-10-22 (21:00 - 22:20) | Monday  | 6 (Source Code Running Insight Meeting)      | Share insights during the phase of running source code              | [click](./meeting/sixth/README.md) |
 
 ## System Architecture
 
