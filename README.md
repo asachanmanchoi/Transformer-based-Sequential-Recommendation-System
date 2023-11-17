@@ -29,10 +29,6 @@ Our work and code is inspired by the KDD 2023 paper [Text Is All You Need: Learn
 
 - to be done
 
-## Prerequisite
-
-- to be done
-
 ## Processing 
 
 - to be done
