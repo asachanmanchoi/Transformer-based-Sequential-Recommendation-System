@@ -4,7 +4,7 @@ This is the research project `"Exploring Temporal Factors in Transformer-based R
 
 ## Inspiration
 
-The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learning Language Representations for Sequential Recommendation](https://arxiv.org/abs/2305.13731) and [Recformer](https://github.com/JiachengLi1995/Recformer) implementation.
+Our work and code is inspired by the KDD 2023 paper [Text Is All You Need: Learning Language Representations for Sequential Recommendation](https://arxiv.org/abs/2305.13731) and [Recformer](https://github.com/JiachengLi1995/Recformer) implementation.
 
 ## Milestone
 
@@ -16,6 +16,14 @@ The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learni
 | 2023-09-26 (21:00 - 22:00) | Tuesday | 4 (Project Proposal Review Meeting)          | Review the project proposal                                         |      |
 | 2023-10-15 (15:30 - 17:30) | Sunday  | 5 (Dataset preprocessing Discussion Meeting) | Determine how to preprocess the dataset and plan in the next week   | [click](./meeting/fifth/README.md) |
 | 2023-10-22 (21:00 - 22:20) | Monday  | 6 (Source Code Running Insight Meeting)      | Share insights during the phase of running source code              | [click](./meeting/sixth/README.md) |
+
+## Dependencies
+
+* Python 3.10.10
+* PyTorch 2.0.0
+* PyTorch Lightning 2.0.0
+* Transformers 4.28.0
+* Deepspeed 0.9.0
 
 ## System Architecture
 
@@ -36,7 +44,7 @@ The code is heavily inspired by the KDD 2023 paper [Text Is All You Need: Learni
 ## Contributors & Maintainers
 
 [@Elaine, Xiaohan ZHONG](https://github.com/ElaineXHZhong)
-[@TAN, Weile]()
+[@TAN, Weile](https://github.com/Ust-Waylon)
 [@Ng Ting Kwong]()
 [@WANG, Liangda]()
 [@CHAN, Man Choi]()
