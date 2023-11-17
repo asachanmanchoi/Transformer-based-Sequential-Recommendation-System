@@ -56,7 +56,7 @@ You can finetune our model using our provided scripts `finetune.py`. In `finetun
 ```bash
 bash finetune.sh
 ```
-Our code will finetune the pretrained model on the dataset and save the finetuned model and the evaluation metrics in the `./checkpoints` folder.
+Our code will finetune the pretrained model on the dataset and save the finetuned model and the evaluation results in the `./checkpoints` folder.
 
 <!-- ## Assistance for members
 
