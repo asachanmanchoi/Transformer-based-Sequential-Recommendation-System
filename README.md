@@ -19,19 +19,49 @@ Our work and code is inspired by the KDD 2023 paper [Text Is All You Need: Learn
 
 ## Dependencies
 
-* Python 3.10.10
-* PyTorch 2.0.0
-* PyTorch Lightning 2.0.0
-* Transformers 4.28.0
-* Deepspeed 0.9.0
+- Python 3.10.10
+- PyTorch 2.0.0
+- PyTorch Lightning 2.0.0
+- Transformers 4.28.0
+- Deepspeed 0.9.0
 
-## System Architecture
+## Pretrained Model
+Download the pretrained model from the following links and put them in the `./pretrained_model` folder.
+|              Model              |
+|:-------------------------------|
+|[RecformerModel](https://drive.google.com/file/d/1aWsPLLgBaO51mPqzZrNdPmlBkMEZ-naR/view?usp=sharing)|
+|[RecformerForSeqRec](https://drive.google.com/file/d/1BEboY3NxAUOBe6YwYZ_RsQ4BR6IIbl0-/view?usp=sharing)|
 
-- to be done
+## Zero-shot
+### Dataset
+We use several categories in [Amazon dataset](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) to evaluate the zero-shot recommendation performance.
 
-## Processing 
+You can process the raw data using our provided scripts `process_data/process.py`. You need to set meta data path `--meta_file_path`, interaction data path `--file_path`, output path `--output_path`, and `--sample_rate` (the default value is 1) in `process_data/process.sh`, and execute the script:
+```bash
+cd process_data
+bash process.sh
+```
+### Evaluation
+You can evaluate the zero-shot recommendation performance using our provided scripts `zero_shot.py`. You need to set the model path `--model_ckpt` and the dataset path `--dataset_path` in `zero_shot.sh` and execute the script:
+```bash
+bash zero_shot.sh
+```
+Our code will evaluate the zero-shot recommendation performance of the given model on the dataset and return the following metrics:
+- NDGC@10, NDGC@50
+- Recall@10, Recall@50
+- MRR
+- AUC
 
-- to be done
+## Finetuning
+### Dataset
+We use several categories in [Amazon dataset](https://cseweb.ucsd.edu/~jmcauley/datasets/amazon_v2/) to finetune our model.
+
+You can process the raw data using our provided scripts `process_data/process.py`. You need to set meta data path `--meta_file_path`, interaction data path `--file_path`, output path `--output_path`, and `--sample_rate` (the default value is 1) in `process_data/process.sh`, and execute the script:
+```bash
+cd process_data
+bash process.sh
+```
+### Training
 
 ## Assistance for members
 
