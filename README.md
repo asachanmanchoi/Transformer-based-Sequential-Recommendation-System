@@ -6,16 +6,6 @@ This is the research project `"Exploring Temporal Factors in Transformer-based R
 
 Our work and code is inspired by the KDD 2023 paper [Text Is All You Need: Learning Language Representations for Sequential Recommendation](https://arxiv.org/abs/2305.13731) and [Recformer](https://github.com/JiachengLi1995/Recformer) implementation.
 
-## Milestone
-
-| Date                       | Weekday | Group Meeting                                | Update                                                              | Note |
-|----------------------------|---------|----------------------------------------------|---------------------------------------------------------------------|------|
-| 2023-09-11 (20:30 - 22:00) | Monday  | 1 (Project Content Discussion Meeting)       | Determine to focus on "Recommendation System"                       |      |
-| 2023-09-16 (20:30 - 22:30) | Saturday| 2 (Read 13 Related Papers Meeting)           | Determine to read only two papers after discussion                  |      |
-| 2023-09-24 (14:00 - 16:00) | Sunday  | 3 (Project Proposal Discussion Meeting)      | Discuss the project proposal content                                |      |
-| 2023-09-26 (21:00 - 22:00) | Tuesday | 4 (Project Proposal Review Meeting)          | Review the project proposal                                         |      |
-| 2023-10-15 (15:30 - 17:30) | Sunday  | 5 (Dataset preprocessing Discussion Meeting) | Determine how to preprocess the dataset and plan in the next week   | [click](./meeting/fifth/README.md) |
-| 2023-10-22 (21:00 - 22:20) | Monday  | 6 (Source Code Running Insight Meeting)      | Share insights during the phase of running source code              | [click](./meeting/sixth/README.md) |
 
 ## Dependencies
 
@@ -62,10 +52,27 @@ cd process_data
 bash process.sh
 ```
 ### Training
+You can finetune our model using our provided scripts `finetune.py`. In `finetune.sh`, you need to set the model path `--pretrain_ckpt`, the dataset path `--data_path`, and you can also set the maximum nunber of training epoch `--num_train_epochs`. To load the best item embedding table from stage 1 before getting into stage 2 of training, set `--reload_item_embeddings` to `True`, otherwise set it to `False`. You can execute the script by:
+```bash
+bash finetune.sh
+```
+Our code will finetune the pretrained model on the dataset and save the finetuned model and the evaluation metrics in the `./checkpoints` folder.
 
-## Assistance for members
+<!-- ## Assistance for members
 
-1. [How to use Git](members/tutorial/Git.md)
+1. [How to use Git](members/tutorial/Git.md) -->
+
+## Milestone
+
+| Date                       | Weekday | Group Meeting                                | Update                                                              | Note |
+|----------------------------|---------|----------------------------------------------|---------------------------------------------------------------------|------|
+| 2023-09-11 (20:30 - 22:00) | Monday  | 1 (Project Content Discussion Meeting)       | Determine to focus on "Recommendation System"                       |      |
+| 2023-09-16 (20:30 - 22:30) | Saturday| 2 (Read 13 Related Papers Meeting)           | Determine to read only two papers after discussion                  |      |
+| 2023-09-24 (14:00 - 16:00) | Sunday  | 3 (Project Proposal Discussion Meeting)      | Discuss the project proposal content                                |      |
+| 2023-09-26 (21:00 - 22:00) | Tuesday | 4 (Project Proposal Review Meeting)          | Review the project proposal                                         |      |
+| 2023-10-15 (15:30 - 17:30) | Sunday  | 5 (Dataset preprocessing Discussion Meeting) | Determine how to preprocess the dataset and plan in the next week   | [click](./meeting/fifth/README.md) |
+| 2023-10-22 (21:00 - 22:20) | Monday  | 6 (Source Code Running Insight Meeting)      | Share insights during the phase of running source code              | [click](./meeting/sixth/README.md) |
+
 
 ## Contributors & Maintainers
 
