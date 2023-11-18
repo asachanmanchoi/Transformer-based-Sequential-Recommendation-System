@@ -44,7 +44,7 @@ Our code will evaluate the zero-shot recommendation performance of the given mod
 
 ### Experiment (with revised code and log record)
 
-In this section, our objective is to explore the cold start predicament as discussed in `4.2 Transfer Learning for Recommendation` in the 4th chapter on Related Work of the paper [paper](https://arxiv.org/abs/2305.13731). In order to substantiate the effectiveness of Recformer, we conduct further experiments in low-resource environments that align with the real-life scenario.
+In this section, our objective is to explore the cold start predicament as discussed in `4.2 Transfer Learning for Recommendation` in the 4th chapter on Related Work of the paper [Text Is All You Need: Learning Language Representations for Sequential Recommendation](https://arxiv.org/abs/2305.13731). In order to substantiate the effectiveness of Recformer, we conduct further experiments in low-resource environments that align with the real-life scenario.
 
 The experiment details, including the revised code and log of the running process, GPU utilization, and results, can be found [here](./experiments/zero-shot/README.md).
 
